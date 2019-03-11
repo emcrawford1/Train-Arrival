@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="text-white bg-dark header">The Train Scheduler</div>
+    </div>
+
+    <div class="container">
+
+
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Train Name</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Frequency (min)</th>
+                    <th scope="col">Next Arrival</th>
+                    <th scope="col">Minutes Away</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>45 minutes</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>30 minutes</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                    <td>60 minutes</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+
+
+
+    <div id="inputFormContainer" class="container">
+
+
+
+        <form id="inputForm">
+            <div class="text-white bg-dark inputHeader">The Train Scheduler</div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Train Name</label>
+                <input type="text" class="form-control" id="trainNameInput" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Destination</label>
+                <input type="text" class="form-control" id="destinationInput" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput">First Train Time (HH:mm - military time)</label>
+                <input type="text" class="form-control" id="firstTrainInput" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2">Frequency (min)</label>
+                <input type="text" class="form-control" id="frequencyInput" placeholder="">
+            </div>
+            <button type="button" class="btn btn-outline-dark">Submit</button>
+        </form>
+
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="Javascript/app.js"></script>
+
+
+</body>
+
+</html>
