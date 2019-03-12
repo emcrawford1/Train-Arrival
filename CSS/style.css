@@ -32,3 +32,17 @@ font-size: 15px;
 
    
 }
+
+.frequency{
+    text-align: center;
+}
+
+.nextArrival{
+
+    text-align: center;
+}
+
+.minutesAway{
+
+    text-align: center;
+}
